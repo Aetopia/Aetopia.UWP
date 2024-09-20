@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net481;net8.0-windows</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>IDE0130,SYSLIB1054,SYSLIB1096</NoWarn>
+    <NuSpecFile>Aetopia.UWP.nuspec</NuSpecFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <PackRelease>true</PackRelease>
+  </PropertyGroup>
+
+</Project>

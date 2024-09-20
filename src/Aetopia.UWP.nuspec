@@ -1,0 +1,16 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Aetopia.UWP</id>
+    <version>1.0.0</version>
+    <developmentDependency>true</developmentDependency>
+    <authors>Aetopia</authors>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <readme>Aetopia.UWP.md</readme>
+    <description>Provides various utilities for interacting with UWP apps from a desktop application.</description>
+  </metadata>
+  <files>
+    <file src="Aetopia.UWP.md" />
+    <file src="*.cs" target="src" />
+  </files>
+</package>
