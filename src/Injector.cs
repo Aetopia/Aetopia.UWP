@@ -1,6 +1,5 @@
 namespace Aetopia.UWP;
 
-
 using System;
 using Private;
 using System.IO;
