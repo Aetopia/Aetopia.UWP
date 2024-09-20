@@ -5,9 +5,9 @@
     <LangVersion>latest</LangVersion>
     <NoWarn>IDE0130,SYSLIB1054,SYSLIB1096</NoWarn>
     <NuSpecFile>Aetopia.UWP.nuspec</NuSpecFile>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Optimize>true</Optimize>
     <PackRelease>true</PackRelease>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
 </Project>
