@@ -1,4 +1,4 @@
-namespace Aetopia.UWP;
+namespace Aetopia.UWP.Private;
 
 using System.Security;
 using System.Runtime.InteropServices;
