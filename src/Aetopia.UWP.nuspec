@@ -6,11 +6,11 @@
     <authors>Aetopia</authors>
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <readme>Aetopia.UWP.md</readme>
+    <readme>README.md</readme>
     <description>Provides various utilities for interacting with UWP apps from a desktop application.</description>
   </metadata>
   <files>
-    <file src="Aetopia.UWP.md" />
+    <file src="../README.md" />
     <file src="*.cs" target="src" />
   </files>
 </package>
