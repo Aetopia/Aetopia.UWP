@@ -7,7 +7,7 @@
     <NuSpecFile>Aetopia.UWP.nuspec</NuSpecFile>
     <Optimize>true</Optimize>
     <PackRelease>true</PackRelease>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>../LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
 </Project>
