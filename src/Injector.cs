@@ -1,13 +1,13 @@
 namespace Aetopia.UWP;
 
 using System;
-using System.ComponentModel;
 using System.IO;
+using System.Threading;
+using System.ComponentModel;
+using System.Threading.Tasks;
+using System.Security.Principal;
 using System.Runtime.InteropServices;
 using System.Security.AccessControl;
-using System.Security.Principal;
-using System.Threading;
-using System.Threading.Tasks;
 
 public static class Injector
 {
