@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/Aetopia/Aetopia.UWP</projectUrl>
     <readme>README.md</readme>
     <copyright>Copyright (C) 2024</copyright>
-    <repository type="git">https://github.com/Aetopia/Aetopia.UWP.git</repository>
+    <repository type="git" url="https://github.com/Aetopia/Aetopia.UWP.git"/>
     <description>Provides various utilities for interacting with UWP apps from a desktop application.</description>
     <tags>uwp desktop windows</tags>
   </metadata>
