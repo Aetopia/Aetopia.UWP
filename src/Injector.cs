@@ -6,8 +6,8 @@ using System.Threading;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Security.Principal;
-using System.Runtime.InteropServices;
 using System.Security.AccessControl;
+using System.Runtime.InteropServices;
 
 public static class Injector
 {
