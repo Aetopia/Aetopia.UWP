@@ -16,6 +16,6 @@
   <files>
     <file src="*.cs" target="contentFiles/cs/netstandard2.0/Aetopia.UWP" />
     <file src="Aetopia.UWP.props" target="build/Aetopia.UWP.props" />
-    <file src="../README.md"/>
+    <file src="../README.md" />
   </files>
 </package>
