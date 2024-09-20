@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net481;net8.0-windows</TargetFrameworks>
     <LangVersion>latest</LangVersion>
-    <NoWarn>IDE0130,SYSLIB1054,SYSLIB1096</NoWarn>
-    <NuSpecFile>Resources/Aetopia.UWP.nuspec</NuSpecFile>
+    <NoWarn>IDE0130,SYSLIB1054,SYSLIB1096,NU5100,NU5119</NoWarn>
+    <NuSpecFile>Aetopia.UWP.nuspec</NuSpecFile>
     <Optimize>true</Optimize>
     <PackRelease>true</PackRelease>
   </PropertyGroup>

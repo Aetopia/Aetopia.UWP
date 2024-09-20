@@ -1,22 +1,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Aetopia.UWP</id>
-    <version>1.0.0</version>
+    <version>1.0.2000001</version>
     <developmentDependency>true</developmentDependency>
     <authors>Aetopia</authors>
-    <license type="file">LICENSE</license>
+    <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/Aetopia/Aetopia.UWP</projectUrl>
-    <readme>Aetopia.UWP.md</readme>
     <copyright>Copyright (C) 2024</copyright>
-    <repository type="git" url="https://github.com/Aetopia/Aetopia.UWP.git"/>
-    <releaseNotes>Initial Release.</releaseNotes>
+    <repository type="git" url="https://github.com/Aetopia/Aetopia.UWP.git" />
     <description>Provides various utilities for interacting with UWP apps from a desktop application.</description>
     <tags>uwp desktop windows</tags>
   </metadata>
   <files>
-    <file src="../../LICENSE" />
-    <file src="Aetopia.UWP.md" />
-    <file src="*.cs" target="src" />
+    <file src="*.cs" target="contentFiles/cs/netstandard2.0/Aetopia.UWP" />
   </files>
 </package>
