@@ -61,10 +61,15 @@ public static class Injector
 
     public static void Inject(string appUserModelId, string path)
     {
-        if (Unmanaged.PathIsRelative(path)) throw new Exception("The specified path must be absolute.");
+        if (Unmanaged.PathIsRelative(path))
+            throw new Exception("The specified path must be absolute.");
         SetAccessControl(path);
-        manager.ActivateApplication(appUserModelId, null, 0x00000002, out var processId);
-        CreateRemoteThread(processId, path);
+        try
+        {
+            manager.ActivateApplication(appUserModelId, null, 0x00000002, out var processId);
+            CreateRemoteThread(processId, path);
+        }
+        catch (ArgumentException) { throw new Win32Exception(Marshal.GetLastWin32Error()); }
     }
 
     public static async Task InjectAsync(string appdUserModelId, string path) => await Task.Run(() => Inject(appdUserModelId, path)).ConfigureAwait(false);
